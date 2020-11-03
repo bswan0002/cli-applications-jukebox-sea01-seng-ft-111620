@@ -33,5 +33,5 @@ def play(songArr)
   "Please enter a song name or number:"
   user_response = gets.strip
   
-  
+  if user_response.to_i 
 end
