@@ -33,5 +33,7 @@ def play(songArr)
   "Please enter a song name or number:"
   user_response = gets.strip
   
-  if user_response.to_i > 0 and 
+  if user_response.to_i > 0 and user_response.to_i <= songArr.length
+    puts "Playing #{songArr[user_response.to_i - 1]}"
+  elsif 
 end
