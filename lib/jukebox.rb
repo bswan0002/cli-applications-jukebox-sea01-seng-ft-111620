@@ -48,6 +48,6 @@ end
 
 def run
   user_input = get_command
+  until user_input == "exit"
+    
 end
-
-run
