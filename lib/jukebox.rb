@@ -46,3 +46,6 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+def run
+  user_input = get_command
+end
