@@ -62,4 +62,5 @@ def run
     else
       user_input = get_command
     end
+  end
 end
