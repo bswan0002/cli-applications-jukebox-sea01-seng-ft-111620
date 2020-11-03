@@ -11,7 +11,7 @@ songs = [
 ]
 
 def get_command
-  puts "Please enter a command"
+  puts "Please enter a command:"
   gets.strip
 end
 
