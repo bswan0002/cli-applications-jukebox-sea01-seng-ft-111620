@@ -49,3 +49,5 @@ end
 def run
   user_input = get_command
 end
+
+run
