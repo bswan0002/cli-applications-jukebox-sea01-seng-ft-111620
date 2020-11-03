@@ -49,5 +49,8 @@ end
 def run
   user_input = get_command
   until user_input == "exit"
-    
+    case user_input
+    when "help"
+      help
+    when 
 end
