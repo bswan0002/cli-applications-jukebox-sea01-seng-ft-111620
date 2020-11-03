@@ -28,3 +28,5 @@ def list(songArr)
     puts "#{i}. #{songArr[i]}"
   end
 end
+
+list(songs)
