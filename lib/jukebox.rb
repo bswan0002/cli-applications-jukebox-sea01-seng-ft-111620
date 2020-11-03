@@ -52,5 +52,14 @@ def run
     case user_input
     when "help"
       help
-    when 
+      user_input = get_command
+    when "list"
+      list(songs)
+      user_input = get_command
+    when "play"
+      play(songs)
+      user_input = get_command
+    else
+      user_input = get_command
+    end
 end
