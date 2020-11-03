@@ -29,4 +29,6 @@ def list(songArr)
   end
 end
 
-list(songs)
+def play(songArr)
+  
+end
