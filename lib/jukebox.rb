@@ -25,7 +25,7 @@ end
 
 def list(songArr)
   songArr.length.times do |i|
-    puts "#{i}. #{songArr[i]}"
+    puts "#{i+1}. #{songArr[i]}"
   end
 end
 
