@@ -23,3 +23,6 @@ def help
   puts "- exit : exits this program"
 end
 
+def list(songArr)
+  
+end
