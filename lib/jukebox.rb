@@ -35,5 +35,9 @@ def play(songArr)
   
   if user_response.to_i > 0 and user_response.to_i <= songArr.length
     puts "Playing #{songArr[user_response.to_i - 1]}"
-  elsif 
+  elsif songArr.any? { |song| song == user_response }
+    puts "Playing #{user_response}"
+  else
+    puts "Invalid input, please try again"
+  end
 end
