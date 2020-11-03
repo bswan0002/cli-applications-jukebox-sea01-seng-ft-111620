@@ -30,7 +30,7 @@ def list(songArr)
 end
 
 def play(songArr)
-  "Please enter a song name or number:"
+  puts "Please enter a song name or number:"
   user_response = gets.strip
   
   if user_response.to_i > 0 and user_response.to_i <= songArr.length
