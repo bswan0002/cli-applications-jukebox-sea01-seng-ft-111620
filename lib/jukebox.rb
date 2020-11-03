@@ -63,4 +63,5 @@ def run(songs)
       user_input = get_command
     end
   end
+  exit_jukebox
 end
