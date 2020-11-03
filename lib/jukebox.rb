@@ -10,3 +10,9 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+def get_command
+  puts "Please enter a command"
+  gets.strip
+end
+
+p get_command
